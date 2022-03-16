@@ -1,0 +1,43 @@
+{
+  "name": "@codepoint-pt/mongoose-intl-plugin",
+  "version": "1.0.0",
+  "description": "Plugin for mongoose schema to manage fields as language objects",
+  "main": "src/mongoose-intl-plugin.ts",
+  "types": "src/mongoose-intl-plugin.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "mongoose": "~6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codepoint-pt/mongoose-intl-plugin.git"
+  },
+  "keywords": [
+    "mongoose",
+    "intl",
+    "i18n",
+    "internationalization",
+    "localization",
+    "schema",
+    "plugin",
+    "languages"
+  ],
+  "author": {
+    "name": "Codepoint",
+    "url": "https://github.com/codepoint-pt"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codepoint-pt/mongoose-intl-plugin/issues"
+  },
+  "homepage": "https://github.com/codepoint-pt/mongoose-intl-plugin#readme",
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^17.0.21"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/codepoint-pt"
+  }
+}
