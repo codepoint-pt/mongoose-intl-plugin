@@ -3,7 +3,7 @@ import { Schema } from "mongoose";
 interface IntlPluginOptions {
   languages: Array<string>;
   defaultLanguage: string;
-  virtualization: true;
+  virtualization?: boolean;
 }
 
 declare function mongooseIntlPlugin(

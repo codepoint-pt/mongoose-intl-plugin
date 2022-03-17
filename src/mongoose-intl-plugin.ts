@@ -3,7 +3,7 @@
 const mongoose = require("mongoose"),
   extend = require("util")._extend;
 
-function mongooseIntlPlugin(schema, options) {
+module.exports = exports = function mongooseIntlPlugin(schema, options) {
   if (!options)
     throw new mongoose.Error(
       "Please define the options with languages and default language"
@@ -176,4 +176,4 @@ function mongooseIntlPlugin(schema, options) {
       mongoose.setDefaultLanguage = mongoose.connection.setDefaultLanguage;
     }
   });
-}
+};
