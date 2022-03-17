@@ -1,6 +1,6 @@
 # mongoose-intl-plugin
 
-Mongoose schema plugin for multilingual fields
+Mongoose schema plugin for multilingual fields. 
 This plugin is based on [alexsk/mongoose-intl](https://github.com/alexsk/mongoose-intl) with reviewed logic and typescript default declaration
 
 ## Installation
