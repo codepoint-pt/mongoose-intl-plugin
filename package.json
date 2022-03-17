@@ -1,6 +1,6 @@
 {
   "name": "@codepoint-pt/mongoose-intl-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin for mongoose schema to manage fields as language objects",
   "main": "src/mongoose-intl-plugin.ts",
   "types": "src/mongoose-intl-plugin.d.ts",
